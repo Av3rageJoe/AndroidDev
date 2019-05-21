@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="HomeHeader">Find an activity for you to do with a partner or friends!</string>
+    <string name="Question1">Are you looking for plans with a partner or friends??</string>
+    <string name="FindDate">Find events for you and your partner!</string>
+    <string name="Question2">How big will your group be?</string>
+    <string name="FindEvent">Find events for you and your friends!</string>
+    <string name="PartnerHeader">Choose an activity for you and your date to do!</string>
+    <string name="PicnicPic">Picnic Image</string>
+    <string name="HomePagePhoto">Photo saying Adventure Awaits</string>
+    <string name="FindPark">Find a local park!</string>
+    <string name="FindCinema">Find any nearby cinemas!</string>
+    <string name="CinemaPic">Picture of a Cinema</string>
+    <string name="IceSkatingPic">Photo of couple ice skating</string>
+    <string name="FindIceRink">Find your nearest Ice Rink!</string>
+    <string name="MuseumPic">Picture of a Museum</string>
+    <string name="FindMuseum">Find your nearest Museum!</string>
+    <string name="CocktailPic">Photos of a cocktail bar</string>
+    <string name="FindCocktails">Find your nearest Cocktail Bar!</string>
+    <string name="FriendHeader">Choose an activity for you and your friends to do!</string>
+    <string name="PubPic">A picture of a pub</string>
+    <string name="FindPub">Find your nearest Pub!</string>
+    <string name="BowlingPic">A picture of a bowling alley</string>
+    <string name="FindBowling">Find your nearest bowling arena!</string>
+    <string name="themeParkPic">A picture of a theme park</string>
+    <string name="FindThemePark">Find your closest theme park!</string>
+    <string name="RestaurantsPic">A picture of a restaurant</string>
+    <string name="FindRestaurants">Find your local restaurants!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="HistoryTxt">View your history of Activities</string>
+    <string name="HistoryBtn">View History</string>
+    <string name="DeleteBtn">Clear History?</string>
+</resources>

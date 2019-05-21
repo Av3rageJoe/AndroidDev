@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4d464b"
+    tools:context=".friends">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/FriendHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:text="@string/FriendHeader"
+                android:textAlignment="center"
+                android:textColor="#e2dbdb"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/CinemaPic"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/CinemaPic"
+                app:srcCompat="@drawable/cinema"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:id="@+id/CinemaBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FindCinema"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/MuseumPic"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/MuseumPic"
+                app:srcCompat="@drawable/museum"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:id="@+id/MuseumBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FindMuseum"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/pubPic"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/PubPic"
+                app:srcCompat="@drawable/pub"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:id="@+id/PubBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FindPub"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/bowlingPic"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/BowlingPic"
+                app:srcCompat="@drawable/bowling"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:id="@+id/BowlingBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FindBowling"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/themeParkPic"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/themeParkPic"
+                app:srcCompat="@drawable/themepark"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:id="@+id/themeParkBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FindThemePark"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/PicnicPic"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/PicnicPic"
+                app:srcCompat="@drawable/picnic"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:id="@+id/PicnicBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FindPark"
+                android:visibility="visible"
+                />
+
+            <ImageView
+                android:id="@+id/restaurantsPic"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/RestaurantsPic"
+                app:srcCompat="@drawable/restaurants"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:id="@+id/RestaurantsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/FindRestaurants"
+                android:visibility="visible"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
