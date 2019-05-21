@@ -290,7 +290,7 @@ public class friends extends AppCompatActivity implements View.OnClickListener {
             // Get the application context
             mContext = getApplicationContext();
 
-            mJSONURLString = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + Double.toString(UserLatitude) + "," + Double.toString(UserLongitude) + "&radius=2000&type=" + place + "&key=AIzaSyA8E8REAhUehZej0fdi9T-eB1HqC0G8YbA";
+            mJSONURLString = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + Double.toString(UserLatitude) + "," + Double.toString(UserLongitude) + "&radius=2000&type=" + place + "&key="; // ENTER API KEY HERE
 
            // Toast.makeText(getApplicationContext(), "Start of Sycnh task", Toast.LENGTH_LONG).show();
             Log.d("Info","Start of Async Task");
